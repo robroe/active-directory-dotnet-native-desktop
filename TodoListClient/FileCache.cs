@@ -18,7 +18,7 @@ namespace TodoListClient
         private static readonly object FileLock = new object();
 
         // Initializes the cache against a local file.
-        // If the file is already rpesent, it loads its content in the ADAL cache
+        // If the file is already present, it loads its content in the ADAL cache
         public FileCache(string filePath=@".\TokenCache.dat")
         {
             CacheFilePath = filePath;
